@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops</title>
+</head>
+<body>
+    <div>This is about Loops</div>
+
+    <script>
+        let friends=["guru","sai","venkata","teja"];
+
+        // friends.forEach(function f(element){
+        //     console.log("hi friend, "+element);
+        // })
+
+        // for(elements of friends){
+        //     console.log("hi "+elements)
+        // }
+
+        let student={
+            name:"teja",
+            reg:338,
+            class:"s1",
+        }
+
+        for(key in student){
+            console.log(`the ${key} of student is ${student[key]}`);
+        }
+
+
+        let i=0;
+        while(i<4){
+            console.log(`${i} is less than 4`);
+            i++;
+        }
+
+
+        let j=30;
+        do{
+            console.log(`${j} is greater than 29`);
+        }while(j<29);
+    </script>
+</body>
+</html>
